@@ -12,6 +12,8 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
   const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const element = ref.current; // Copy ref.current to a local variable
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -24,14 +26,14 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
       { rootMargin: offset }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (element) {
+      observer.observe(element);
     }
 
     // Cleanup function to disconnect the observer
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, [offset]); // Include `offset` in the dependency array
@@ -42,4 +44,5 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
     </div>
   );
 }
+
 

@@ -39,7 +39,7 @@ const AboutSection = () => {
               I graduated from the University of California, Irvine in 2020
               with a BS in Biological Sciences. I successfully completed a Data Science & Python Fellowship 
               program at The Knowledge House and a Data Analytics Fellowship program at CO-OP Careers, paving
-              the way for my transition into the tech sphere. I'm adept at quickly learning new technologies and 
+              the way for my transition into the tech sphere. I&apos;m adept at quickly learning new technologies and 
               extracting insights from data is something that I truly enjoy.  
             </p>
             <br />
