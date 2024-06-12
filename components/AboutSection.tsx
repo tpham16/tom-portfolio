@@ -2,15 +2,13 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
   { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
+  { skill: "SQL" },
+  { skill: "MySQL" },
+  { skill: "PostgreSQL" },
+  { skill: "Tableau" },
+  { skill: "Excel" },
+  { skill: "Python" },
   { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
 ]
@@ -30,35 +28,38 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hi, my name is Tom Pham and I am a{" "}
+              <span className="font-bold text-teal-500">{"highly ambitious"}</span>,
+              <span className="font-bold text-teal-500">{" self-motivated"}</span>, and
+              <span className="font-bold text-teal-500">{" driven"}</span> Data Analyst
+              based in Glendale, Arizona. 
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from the University of California, Irvine in 2020
+              with a BS in Biological Sciences. I successfully completed a Data Science & Python Fellowship 
+              program at The Knowledge House and a Data Analytics Fellowship program at CO-OP Careers, paving
+              the way for my transition into the tech sphere. I'm adept at quickly learning new technologies and 
+              extracting insights from data is something that I truly enjoy.  
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From hiking, traveling, playing pickleball, and building DIY weekend projects,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
+              I am inspired by {" "}
               <span className="font-bold text-teal-500">
-                never stop growing
+                tough problems 
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              and am passionate about sharing innovative solutions. As a former EMT, I have
+              a deep-rooted passion for helping people and making a difference in their lives. 
+              This experience has stayed with me and has fueled my desire to leverage technology to solve
+              real-world problems and improve lives. I am excited to see where my career takes me and am always open
+              to new opportunities. 
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -75,13 +76,6 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
           </div>
         </div>
       </div>

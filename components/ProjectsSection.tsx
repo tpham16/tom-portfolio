@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Social Media Engagement Analytics",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Developed and implemented an end-to-end ETL pipeline for processing social media engagement data across Instagram, Twitter, and YouTube. The pipeline encompassed extracting raw data, performing data transformation using Python, orchestrating the pipeline on PostgreSQL, and creating a dashboard using Tableau.",
+    image: "/SocialMediaEngagementDashboard.png",
+    github: "https://github.com/tpham16/TKH-Social-Media-Engagement-Analytics",
+    link: "https://public.tableau.com/app/profile/tom.pham5473/viz/TKHSocialMediaEngagement/DASHBOARD",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "FIFA 21 Players Dataset Data Cleaning & Transformation",
+    description: "Analyzed the FIFA 2021 player dataset with a focus on data cleaning, transformation, and exploratory data analysis (EDA). This extensive dataset provided in-depth information about football players, encompassing attributes, ratings, positions, and personal details. Through EDA, I delved into player attributes and positions, uncovering valuable insights, including the identification of highly valuable but underpaid players.",
+    image: "/fifa21.png",
+    github: "https://github.com/tpham16/FIFA-21-Players",
+    link: "https://github.com/tpham16/FIFA-21-Players",
   },
   {
-    name: "Kator Family Photos",
+    name: "Coffee Bean Sales Analysis",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Analyzed global coffee bean sales data using Excel. Ulitized Excel functions such as XLOOKUP, Index Match, Pivot Charts to clean and format columns. Visualized key insights, including interactive timeline, sales over time, bean roast preferences, package size, top sales by country, and top 5 customers.",
+    image: "/Coffee Bean Sales Dashboard.png",
+    github: "https://github.com/tpham16/excelproject_coffeesales",
+    link: "https://github.com/tpham16/excelproject_coffeesales",
   },
 ]
 
