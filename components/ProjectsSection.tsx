@@ -28,6 +28,14 @@ const projects = [
     github: "https://github.com/tpham16/excelproject_coffeesales",
     link: "https://github.com/tpham16/excelproject_coffeesales",
   },
+  {
+    name: "Data Analyst Market Analysis",
+    description:
+      "Analyzed 11,000 job postings to reveal key trends in the Data Analysts job market, including in-demand skills, top hiring locations, and salary variations for both remote and non-remote positions.",
+    image: "/Data Analyst Market.png",
+    github: "https://github.com/tpham16/Data-Analysts-Market-Analysis",
+    link: "https://github.com/tpham16/Data-Analysts-Market-Analysis",
+  },
 ]
 
 const ProjectsSection = () => {
