@@ -14,6 +14,14 @@ const projects = [
     link: "https://public.tableau.com/app/profile/tom.pham5473/viz/TKHSocialMediaEngagement/DASHBOARD",
   },
   {
+    name: "Social Media Engagement Analytics",
+    description:
+      "Developed and implemented an end-to-end ETL pipeline for processing social media engagement data across Instagram, Twitter, and YouTube. The pipeline encompassed extracting raw data, performing data transformation using Python, orchestrating the pipeline on PostgreSQL, and creating a dashboard using Tableau.",
+    image: "/TomanBikeShopDashboard.png",
+    github: "https://github.com/tpham16/TomanBikeShop",
+    link: "https://github.com/tpham16/TomanBikeShop",
+  },
+  {
     name: "FIFA 21 Players Dataset Data Cleaning & Transformation",
     description: "Analyzed the FIFA 2021 player dataset with a focus on data cleaning, transformation, and exploratory data analysis (EDA). This extensive dataset provided in-depth information about football players, encompassing attributes, ratings, positions, and personal details. Through EDA, I delved into player attributes and positions, uncovering valuable insights, including the identification of highly valuable but underpaid players.",
     image: "/fifa21.png",
