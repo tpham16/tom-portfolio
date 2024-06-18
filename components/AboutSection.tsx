@@ -7,6 +7,7 @@ const skills = [
   { skill: "MySQL" },
   { skill: "PostgreSQL" },
   { skill: "Tableau" },
+  { skill: "Power BI" },
   { skill: "Excel" },
   { skill: "Python" },
   { skill: "GitHub" },

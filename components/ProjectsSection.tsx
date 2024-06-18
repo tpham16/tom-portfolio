@@ -14,9 +14,9 @@ const projects = [
     link: "https://public.tableau.com/app/profile/tom.pham5473/viz/TKHSocialMediaEngagement/DASHBOARD",
   },
   {
-    name: "Social Media Engagement Analytics",
+    name: "Bike Shop Sales Performance Power BI Dashboard",
     description:
-      "Developed and implemented an end-to-end ETL pipeline for processing social media engagement data across Instagram, Twitter, and YouTube. The pipeline encompassed extracting raw data, performing data transformation using Python, orchestrating the pipeline on PostgreSQL, and creating a dashboard using Tableau.",
+      "Designed and developed a Power BI dashboard for Toman Bike Shop to monitor key performance metrics. The dashboard includes analyses of hourly revenue, profit and revenue trends, seasonal revenue variations, and rider demographics. The project involved creating a database, developing SQL queries, connecting Power BI to the database, and building interactive visualizations to support data-driven decision-making.",
     image: "/TomanBikeShopDashboard.png",
     github: "https://github.com/tpham16/TomanBikeShop",
     link: "https://github.com/tpham16/TomanBikeShop",
