@@ -22,6 +22,14 @@ const projects = [
     link: "https://github.com/tpham16/TomanBikeShop",
   },
   {
+    name: "LA County Job Applications Analysis",
+    description:
+      "Conducted a comprehensive analysis of job application data for LA County covering the 2013-2015 fiscal years using Data.gov data. The project aimed to support potential policy changes at the city and state levels. Key analyses included top-performing industries, average salaries, and gender and ethnicity demographics.",
+    image: "/LACountyJobApp.png",
+    github: "https://github.com/tpham16/LA-Job-Apps",
+    link: "https://public.tableau.com/app/profile/tom.pham5473/viz/LAJobApplicantsDashboard/Dashboard12",
+  },
+  {
     name: "FIFA 21 Players Dataset Data Cleaning & Transformation",
     description: "Analyzed the FIFA 2021 player dataset with a focus on data cleaning, transformation, and exploratory data analysis (EDA). This extensive dataset provided in-depth information about football players, encompassing attributes, ratings, positions, and personal details. Through EDA, I delved into player attributes and positions, uncovering valuable insights, including the identification of highly valuable but underpaid players.",
     image: "/fifa21.png",
