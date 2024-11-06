@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Data Analyst{" "}
             </span>
-            based in Glendale, AZ. Working towards taking raw data and turning it into meaningful insights and visualizations. 
+            based in Phoenix, AZ. Working towards taking raw data and turning it into meaningful insights and visualizations. 
           </p>
           <Link
             to="projects"

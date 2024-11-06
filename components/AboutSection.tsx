@@ -9,7 +9,7 @@ const skills = [
   { skill: "Tableau" },
   { skill: "Power BI" },
   { skill: "Excel" },
-  { skill: "Python" },
+  { skill: "Google Looker" },
   { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
 ]
@@ -33,7 +33,7 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">{"highly ambitious"}</span>,
               <span className="font-bold text-teal-500">{" self-motivated"}</span>, and
               <span className="font-bold text-teal-500">{" driven"}</span> Data Analyst
-              based in Glendale, Arizona. 
+              based in Phoenix, Arizona. 
             </p>
             <br />
             <p>
@@ -46,7 +46,7 @@ const AboutSection = () => {
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From hiking, traveling, playing pickleball, and building DIY weekend projects,
+              From hiking, traveling, playing pickleball, and volunteering,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
@@ -60,7 +60,7 @@ const AboutSection = () => {
               a deep-rooted passion for helping people and making a difference in their lives. 
               This experience has stayed with me and has fueled my desire to leverage technology to solve
               real-world problems and improve lives. I am excited to see where my career takes me and am always open
-              to new opportunities. 
+              to new opportunities. Currently, I am volunteering for Hack for LA and Food Oasis to highlight the Los Angeles neighborhoods that lack easy access to food resources online.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
